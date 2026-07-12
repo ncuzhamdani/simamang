@@ -15,6 +15,7 @@ import {
   Settings,
   Menu,
   X,
+  Download,
 } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { useState } from "react";
@@ -29,6 +30,7 @@ const NAV = [
   { href: "/hutang", label: "Hutang & Piutang", icon: Handshake },
   { href: "/berulang", label: "Transaksi Berulang", icon: Repeat2 },
   { href: "/laporan", label: "Laporan", icon: BarChart3 },
+  { href: "/unduh", label: "Unduh Aplikasi", icon: Download },
   { href: "/pengaturan", label: "Pengaturan", icon: Settings },
 ];
 

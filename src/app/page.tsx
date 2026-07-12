@@ -29,6 +29,7 @@ import {
 } from "@/lib/queries";
 import { currentMonth, formatCurrency, formatDate, formatMonth } from "@/lib/format";
 import { CashflowChart, CategoryDonut, DailyBarChart } from "@/components/charts";
+import { InstallBanner } from "@/components/downloads/install-banner";
 
 export const dynamic = "force-dynamic";
 
@@ -62,6 +63,8 @@ export default function DashboardPage() {
           </Link>
         }
       />
+
+      <InstallBanner />
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Stat
