@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SiMamang — Offline</title>
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, Arial, sans-serif; background: #f8fafc; color: #0f172a; margin: 0; min-height: 100dvh; display: grid; place-items: center; padding: 24px; }
+      .card { max-width: 420px; background: #fff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 28px; text-align: center; box-shadow: 0 1px 3px rgba(15,23,42,.06); }
+      .badge { display: inline-grid; place-items: center; width: 64px; height: 64px; border-radius: 20px; background: linear-gradient(135deg, #28a668, #166b45); color: #fff; font-weight: 800; font-size: 24px; margin-bottom: 14px; }
+      h1 { font-size: 20px; margin: 4px 0 6px; }
+      p { color: #64748b; font-size: 14px; line-height: 1.55; }
+      button { margin-top: 18px; padding: 10px 16px; border-radius: 12px; border: 0; background: #28a668; color: white; font-weight: 600; cursor: pointer; }
+      @media (prefers-color-scheme: dark) { body { background: #020617; color: #f1f5f9; } .card { background: #0f172a; border-color: #1e293b; } p { color: #94a3b8; } }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="badge">Rp</div>
+      <h1>Anda sedang offline</h1>
+      <p>SiMamang butuh koneksi untuk memuat halaman ini. Setelah kembali online, halaman akan terbuka otomatis. Data lokal Anda tetap aman.</p>
+      <button onclick="location.reload()">Coba lagi</button>
+    </div>
+  </body>
+</html>

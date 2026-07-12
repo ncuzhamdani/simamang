@@ -1,0 +1,39 @@
+{
+  "name": "SiMamang — Pencatatan Keuangan",
+  "short_name": "SiMamang",
+  "description": "Aplikasi pencatatan keuangan pribadi yang detail. Kelola transaksi, anggaran, target, hutang, dan laporan — semua tersimpan lokal di perangkat Anda.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#28a668",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "categories": ["finance", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "/icons/screenshot-mobile.svg", "sizes": "540x1080", "type": "image/svg+xml", "form_factor": "narrow" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Transaksi",
+      "short_name": "Transaksi",
+      "description": "Catat transaksi baru dengan cepat",
+      "url": "/transaksi/baru",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Laporan",
+      "short_name": "Laporan",
+      "url": "/laporan",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
